@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Anik Das",
+      "age": 18,
+      "class": "12",
+      "section": "A",
+      "subjects": ["Math", "Physics", "Chemistry"],
+      "address": {
+        "village": "Rampur",
+        "post": "Rampur Bazar",
+        "district": "Dhaka"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Tania Rahman",
+      "age": 17,
+      "class": "11",
+      "section": "B",
+      "subjects": ["Biology", "Chemistry", "English"],
+      "address": {
+        "village": "Uttara",
+        "post": "Uttara Post Office",
+        "district": "Dhaka"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sohan Mia",
+      "age": 19,
+      "class": "12",
+      "section": "C",
+      "subjects": ["Accounting", "Finance", "Management"],
+      "address": {
+        "village": "Shibpur",
+        "post": "Shibpur",
+        "district": "Narsingdi"
+      }
+    }
+  ]
+

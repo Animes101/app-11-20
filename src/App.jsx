@@ -1,21 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 import Card from './components/Card'
+import Student from './components/Student';
+
+import StData from './students.json';
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       <div className='cards'>
-        <Card title={'card  title 1'} />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card title='card title 1' />
+        <Card title='card title 2' />
+        <Card  title='card title 3'/>
+        <Card  title='card title 4'/>
+        <Card  title='card title 5'/>
+      </div>
+
+      <div>
+        <Student sData={StData} />
       </div>
     </>
   )
