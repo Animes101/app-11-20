@@ -2,6 +2,7 @@
 import './App.css'
 
 import Card from './components/Card'
+import ClassCard from './components/ClassComponents';
 import Student from './components/Student';
 import Users from './components/Users';
 
@@ -61,6 +62,11 @@ function App() {
 
       <div>
         <Users  usersData={userDatas} />
+      </div>
+
+
+      <div>
+        <ClassCard   name='class components name'/>
       </div>
     </>
   )
